@@ -1,0 +1,25 @@
+/* tag ile kullanımı */
+/* p{
+    background-color:black;
+} */
+/* id ve class ile kullanımı */
+/* #parag_id{
+    background-color:orange;
+} */
+
+/* .paragraph_class{
+    background-color:blue;
+} */
+
+/* color, background-color, important */
+#parag_id{
+    color: red;
+    color:#ff0000;
+    color: rgba(255, 0, 0, 0.9);
+    color:hsl(0, 100%, 50%);
+    color:hsl(0, 100%, 50%);
+    color:hsla(0, 100%, 50%, 0.9);
+
+    background-color: purple !important;
+    background-color: blue;
+}
