@@ -40,6 +40,21 @@
     margin-right: 15px;
     margin-bottom: 25px;
     margin-left: 12px;
+}
 
-
+/* border border radius */
+#div_id{
+    background-color: black;
+    color: yellow;
+    padding:25px;
+    margin-bottom: 10px;
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: red; */
+    border:20px solid red;
+    /* border-radius: 2px 15px 50px 3px; */
+    /* border-radius: 40px 5px; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    
 }
