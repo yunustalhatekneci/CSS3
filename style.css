@@ -58,6 +58,7 @@
     border-bottom-left-radius: 5px;
     
 }
+/* text */
 #parag_id4{
     font-family: "Fira Code", serif;
     background-color: black;
@@ -70,4 +71,24 @@
     line-height: 1.5;
     padding-left: 10px;
     text-shadow: 2px 3px 4px yellow;
+}
+/* column-count */
+.column-container{
+    column-count: 3;
+    column-rule: 1px solid red;
+    text-transform: capitalize;
+    text-align: justify;
+    column-gap: 20px;
+}
+/* line-clamp */
+.line-clamp4{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    /* other for browser */
+    display: -moz-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
