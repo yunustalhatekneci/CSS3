@@ -114,3 +114,24 @@
     height: 50px;
     cursor: move;
 }
+
+/* transition - transform box-shadow */
+.ytt_transition_transform{
+    background-color: blue;
+    color: red;
+    height: 100px;
+    width: 75%;
+    padding: 10px;
+    transition: width 3s ease-in-out 0.3s, background-color 0.5s linear;
+   box-shadow: 10px 2px 4px 1px rgba(0,0,0,0.5);
+}
+
+.ytt_transition_transform:hover{
+    background-color: purple;
+    color: black;
+    width: 100%;
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: translate(50px, -50px);
+    transform: skew(30deg, -30deg);
+}
