@@ -92,3 +92,25 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+/* link */
+#youtube_a:hover{
+    color: #ff0000;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+.youtube_width_height{
+    background-color: blue;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+}
+.youtube_width_height:hover{
+    background-color:red;
+    color: white;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: move;
+}
