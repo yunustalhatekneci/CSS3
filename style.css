@@ -200,5 +200,12 @@ body{
 #parag6{
     /* font-size: 2rem; */
     /* font-size: 2em; */
-    font-size: calc(2em + 10px);
+    font-size: calc(1em + 10px);
+}
+/* image */
+#image_id{
+    background-image: url('./CSS-Logo.png');
+    width: 300px;
+    height: 200px;
+    background-size: cover;
 }
