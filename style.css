@@ -190,3 +190,15 @@ text-align: center;
 .custom-table tbody tr:nth-child(even){
     background-color: aqua;
 }
+/* rem=html em=body calc: hesaplama */
+/* html{
+    font-size: 20px;
+} */
+body{
+    font-size: 16px;
+}
+#parag6{
+    /* font-size: 2rem; */
+    /* font-size: 2em; */
+    font-size: calc(2em + 10px);
+}
