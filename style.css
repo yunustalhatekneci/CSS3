@@ -209,3 +209,21 @@ body{
     height: 200px;
     background-size: cover;
 }
+/* header */
+header{
+    background-image: url('./HTML5_logo_and_wordmark.svg.png');
+    background-size: cover;
+    background-position: center;
+    height: 75vh;/*view port: tarayıcının bize sağladığı, kullanıcının görebildiği alan*/
+    width: 75%; 
+    padding: 22px;
+    text-align: center;
+}
+#linear_gradient_id{
+    background: linear-gradient(to right, #ffc000, #ff0000);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;/*view port: tarayıcının bize sağladığı, kullanıcının görebildiği alan*/
+    width: 75%; 
+    padding: 22px;
+}
