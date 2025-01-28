@@ -153,3 +153,40 @@
     width: 200px;
     height: 100px;
 }
+/* List */
+.menu{
+    background-color: red;
+    overflow: hidden;
+}
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+.menu li{
+  float: left;
+}
+.menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* table */
+.custom-table{
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+.custom-table td, .custom-table th{
+border: 1px solid red;
+text-align: center;
+}
+.custom-table{
+    background-color: yellow;
+}
+.custom-table tbody tr:nth-child(even){
+    background-color: aqua;
+}
