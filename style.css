@@ -135,3 +135,21 @@
     transform: translate(50px, -50px);
     transform: skew(30deg, -30deg);
 }
+/* display_ display box_sizing */
+/* .ytt_display{
+    display: none;
+    visibility: hidden;
+   
+} */
+.ytt_display{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+}
