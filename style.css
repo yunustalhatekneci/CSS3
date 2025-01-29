@@ -226,4 +226,5 @@ header{
     height: 75vh;/*view port: tarayıcının bize sağladığı, kullanıcının görebildiği alan*/
     width: 75%; 
     padding: 22px;
+    text-align: center;
 }
