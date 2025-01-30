@@ -245,3 +245,43 @@ header{
     min-height: 200px;
     clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }
+/* selector */
+p{
+    font-size: 1.5rem;
+
+}
+.parag1{
+    font-size: 1.5rem;
+}
+div{
+    background-color: #ff0000;
+}
+div p{
+    background-color: blue;
+}
+div + p{
+    background-color: green;
+}
+div ~p{
+    background-color: yellow;
+}
+li:nth-child(odd){
+    background-color: lightgray;
+}
+li:nth-child(even){
+    background-color: gray;
+}
+li:nth-of-type(5){
+    background-color: purple;
+    ;
+}
+a{
+    color:  black ;
+}
+a:hover{
+    color: red;
+
+}
+a:active{
+    color: blue;
+}
