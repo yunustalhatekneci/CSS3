@@ -246,7 +246,7 @@ header{
     clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }
 /* selector */
-p{
+/* p{
     font-size: 1.5rem;
 
 }
@@ -284,4 +284,38 @@ a:hover{
 }
 a:active{
     color: blue;
+} */
+/* responsive_design */
+.ytt_responsive_desing{
+   background-color: blue;
+   color: white;
+    width: 100%;
+    height: 100px;
+    max-width: 500px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+/* 468<= Responsive <= 768 */
+@media (min-width:468px) and (max-with:768px){
+    .ytt_responsive_desing{
+    background-color: blue;
+    color: white;
+     width: 100%;
+     height: 100px;
+     max-width: 500px;
+      padding: 10px;
+     display: block;
+     margin-bottom: 10px;
+}
+}
+/* 769 <= Responsive <= 991 */
+@media (min-width:769px) and (max-with:991px){
+    .ytt_responsive_desing{
+    background-color: yellow;
+    color: black;
+     width: 49%;
+     display:inline block;
+     margin-bottom: 10px;
+}
 }
