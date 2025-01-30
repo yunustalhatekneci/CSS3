@@ -228,3 +228,20 @@ header{
     padding: 22px;
     text-align: center;
 }
+/* float_examples */
+.float_examples{
+    float: right;
+    margin-left: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* clip_path_id */
+#clip_path_id{
+    background-color: yellow;
+    width: 300px;
+    min-height: 200px;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
